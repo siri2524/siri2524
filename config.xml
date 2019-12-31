@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget id="com.petburi.youtubemp3" version="1.0.0.0" android-versionCode="1"
+xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<name>youtubemp3</name>
+<description>application</description>
+<author>petburi</author>
+<icon src="icon-256.png" width="256" height="256" density="xxxhdpi" />
+<icon src="icon-128.png" width="128" height="128" density="xhdpi" />
+<preference name="android-targetSdkVersion" value="28" />
+<preference name="orientation" value="default" />
+<preference name="fullscreen" value="true" />
+<preference name="DisallowOverscroll" value="true" />
+<preference name="AllowInlineMediaPlayback" value="true" />
+<preference name="deployment-target" value="10.0" />
+<preference name="android-minSdkVersion" value="26" />
+<access origin="*" />
+<plugin name="cordova-custom-config" />
+<plugin name="cordova-plugin-file" />
+<plugin name="cordova-plugin-statusbar" />
+<plugin name="cordova-plugin-whitelist" />
+<plugin name="cordova-plugin-wkwebview-engine" />
+<engine name="android" />
+</widget>
